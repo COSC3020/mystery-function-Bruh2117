@@ -12,3 +12,5 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+mystery() takes a string as an argument and returns the first character if it's the only character in the string. It then recursively slices the string such that it removes the first character of the string until all that's left is the last character of the string. This last character is stored in variable foo which is then compared to the first character of the string. If foo (the last character) is greater than the first, the function returns foo. Otherwise it returns the first character.
